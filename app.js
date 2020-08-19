@@ -3,7 +3,9 @@ let choices = [
    outcomes: [ 
       {Scissors: "Win"},
       {Paper: "Lose"},
-      {Rock: "Tie"}
+      {Rock: "Tie"},
+      {Lizard: "Win"},
+      {Spock: "Lose"}
    ],
    img: "/assets/rock.jpg"
   },
@@ -11,7 +13,9 @@ let choices = [
    outcomes: [ 
     {Scissors: "Lose"},
     {Paper: "Tie"},
-    {Rock: "Win"}
+    {Rock: "Win"},
+    {Lizard: "Lose"},
+    {Spock: "Win"}
    ],
    img: "/assets/paper.jpg"
   },
@@ -19,10 +23,32 @@ let choices = [
    outcomes: [ 
     {Scissors: "Tie"},
     {Paper: "Win"},
-    {Rock: "Lose"}
+    {Rock: "Lose"},
+    {Lizard: "Win"},
+    {Spock: "Lose"}
    ],
   img: "/assets/scissors.jpg"
- }
+  },
+  {id: "Lizard",
+   outcomes: [ 
+    {Scissors: "Lose"},
+    {Paper: "Win"},
+    {Rock: "Lose"},
+    {Lizard: "Tie"},
+    {Spock: "Win"}
+   ],
+  img: "/assets/lizard.jpg"
+  },
+  {id: "Spock",
+   outcomes: [ 
+    {Scissors: "Win"},
+    {Paper: "Lose"},
+    {Rock: "Win"},
+    {Lizard: "Lose"},
+    {Spock: "Tie"}
+   ],
+  img: "/assets/spock.jpg"
+  }
 ]
 
 function drawDefault(){
