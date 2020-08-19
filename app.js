@@ -7,7 +7,7 @@ let choices = [
       {Lizard: "Win"},
       {Spock: "Lose"}
    ],
-   img: "/assets/rock.jpg"
+   img: "/rock-paper-scissors/assets/rock.jpg"
   },
   {id: "Paper",
    outcomes: [ 
@@ -17,7 +17,7 @@ let choices = [
     {Lizard: "Lose"},
     {Spock: "Win"}
    ],
-   img: "/assets/paper.jpg"
+   img: "/rock-paper-scissors/assets/paper.jpg"
   },
   {id: "Scissors",
    outcomes: [ 
@@ -27,7 +27,7 @@ let choices = [
     {Lizard: "Win"},
     {Spock: "Lose"}
    ],
-  img: "/assets/scissors.jpg"
+  img: "/rock-paper-scissors/assets/scissors.jpg"
   },
   {id: "Lizard",
    outcomes: [ 
@@ -37,7 +37,7 @@ let choices = [
     {Lizard: "Tie"},
     {Spock: "Win"}
    ],
-  img: "/assets/lizard.jpg"
+  img: "/rock-paper-scissors/assets/lizard.jpg"
   },
   {id: "Spock",
    outcomes: [ 
@@ -47,7 +47,7 @@ let choices = [
     {Lizard: "Lose"},
     {Spock: "Tie"}
    ],
-  img: "/assets/spock.jpg"
+  img: "/rock-paper-scissors/assets/spock.jpg"
   }
 ]
 
