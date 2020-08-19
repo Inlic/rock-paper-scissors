@@ -52,8 +52,8 @@ let choices = [
 ]
 
 function drawDefault(){
-  document.getElementById("player-image").innerHTML = "<img src='/assets/default.jpg'><h1 class='text-secondary'>Waiting on Player<h1>"
-  document.getElementById("ai-image").innerHTML = "<img src='/assets/default.jpg'>"
+  document.getElementById("player-image").innerHTML = "<img src='/rock-paper-scissors/assets/default.jpg'><h1 class='text-secondary'>Waiting on Player<h1>"
+  document.getElementById("ai-image").innerHTML = "<img src='/rock-paper-scissors/assets/default.jpg'>"
 }
 
 function drawButton(){
