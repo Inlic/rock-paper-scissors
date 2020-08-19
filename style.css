@@ -7,3 +7,17 @@ body {
 main {
   flex-grow: 1;
 }
+
+img {
+  height: 400px;
+  width: 400px;
+}
+
+@keyframes fadein{
+ from{opacity:0;}
+ to{opacity:1;}
+}
+
+.animate{
+  animation: fadein 0.8s; 
+}
